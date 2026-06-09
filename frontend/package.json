@@ -1,0 +1,50 @@
+{
+  "name": "homez-nextjs",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/clean-next-build.mjs",
+    "build": "next build",
+    "build:analyze": "cross-env ANALYZE=true next build",
+    "start": "next start",
+    "verify:next-assets": "node scripts/verify-next-deployment-assets.mjs",
+    "verify:production-ready": "node scripts/verify-production-ready.mjs",
+    "verify:production-domains": "node scripts/verify-next-deployment-assets.mjs https://jameenwallah.akoodedemo.com/ https://jameenwallah.akoodedemo.com/cmsadminlogin/ai-suggestion-staging https://jameenwallah.com/cmsadminlogin/ai-suggestion-staging",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "7.27.1",
+    "@google/generative-ai": "^0.24.1",
+    "@next/bundle-analyzer": "^16.1.6",
+    "@popperjs/core": "^2.11.8",
+    "@react-google-maps/api": "^2.20.6",
+    "aos": "^2.3.4",
+    "bootstrap": "5.3.6",
+    "chart.js": "^4.5.1",
+    "eslint": "9.27.0",
+    "mongoose": "^9.4.1",
+    "next": "15.1.11",
+    "photoswipe": "^5.4.4",
+    "prop-types": "15.8.1",
+    "rc-slider": "^11.1.8",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.1.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-photoswipe-gallery": "^3.1.1",
+    "react-pro-sidebar": "^1.1.0",
+    "react-select": "^5.10.1",
+    "react-tooltip": "^5.28.1",
+    "recharts": "2.15.3",
+    "sass": "^1.97.3",
+    "swiper": "^11.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "axios": "^1.15.1",
+    "cross-env": "^10.1.0",
+    "eslint-config-next": "^16.2.1"
+  }
+}

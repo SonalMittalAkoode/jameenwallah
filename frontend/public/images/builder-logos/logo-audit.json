@@ -1,0 +1,586 @@
+{
+  "generatedAt": "2026-06-04T10:20:29.502Z",
+  "total": 96,
+  "extractedLocal": 54,
+  "alreadyLocal": 22,
+  "missing": 0,
+  "partners": [
+    {
+      "builder": "M3M",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/m3m.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "Emaar MGF",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/emaar-mgf.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "DLF",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/dlf.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "JMD Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/jmd-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Unitech",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/unitech.gif",
+      "originalSource": ""
+    },
+    {
+      "builder": "Spaze",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/spaze.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Vatika",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/vatika.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Vipul Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/vipul-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Suncity Projects Pvt. Ltd.",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/suncity-projects-pvt-ltd.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "AIPL (Advance India Projects Limited)",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/aipl.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "M3M India",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/m3m-india.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "ELAN",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/elan.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Eros",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/eros.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "BPTP",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/bptp.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Bestech",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/bestech-logo.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Galaxy Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/galaxy-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Trehan Group of Companies",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/trehan-group-of-companies.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "DLF Ltd.",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/dlf-ltd.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Dhoot",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/dhoot.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Global",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/global.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "IMPERIA",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/imperia.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "ABW GROUP",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/abw-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Salcon",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/salcon.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Baani Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/baani-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Pioneer",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/pioneer.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Welldone",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/welldone.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Reach Group",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/reach-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Smartworld",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/smartworld.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Suncity Business Tower",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/suncity-business-tower.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Magnum Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/magnum-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Centrum Plaza",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/centrum-plaza.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Emaar India",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/emaar-india.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Emaar India ltd",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/emaar-india-ltd.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Godrej Properties",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/godrej-properties.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Splendor",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/splendor.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Adani",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/adani.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Good Earth Infra",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/good-earth-infra.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "Ireo",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/ireo.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Ninex",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/ninex.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Omaxe Ltd",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/omaxe-ltd.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "Suncity",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/suncity.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "TATA",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/tata.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Birla Estates",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/birla-estates.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Gold Coast",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/gold-coast.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "HUDA",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/huda.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "OCUS",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/ocus.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Signature Global",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/signature-global.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Sweta Estate",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/sweta-estate.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Ambience",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/ambience.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "ATS Infrastructure",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/ats-infrastructure.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Experion Developers",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/experion-developers.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "HSIDC",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/hsidc.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "ITC",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/itc.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Max Estates Ltd.",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/max-estates-ltd.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Puri Constructions Pvt. Ltd.",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/puri-constructions-pvt-ltd.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Sobha Limited",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/sobha-limited.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Central Park",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/central-park.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Conscient Infrastructure",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/conscient-infrastructure.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Enkay Towers",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/enkay-towers.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "M2K",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/m2k.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Oberoi Realty",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/oberoi-realty.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Satya group",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/satya-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Silverglades",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/silverglades.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Adore Realtech",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/adore-realtech.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "AMB",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/amb.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "ANSAL",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/ansal.jpg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Gambhir Housing India Ltd",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/gambhir-housing-india-ltd.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "INTERNATIONAL LAND DEVELOPER Ltd.(ILD)",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/international-land-developer-ltd-ild.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "JMS Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/jms-group.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "Krisumi",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/krisumi.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Mahindra Lifespaces",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/mahindra-lifespaces.webp",
+      "originalSource": ""
+    },
+    {
+      "builder": "Omaxe Limited",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/omaxe-limited.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Orchid",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/orchid.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Paras",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/paras.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Paras Buildtech",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/paras-buildtech.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Prestige Group",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/prestige-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Raheja",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/raheja.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "S.S. Group",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/s-s-group.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Sahara Infrastructure",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/sahara-infrastructure.jpg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Smart World",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/smart-world.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Suncity Projects",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/suncity-projects.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Supertech",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/supertech.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "TARC Limited",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/tarc-limited.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Whiteland Corporation",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/whiteland-corporation.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Apas Group",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/apas-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Candor TechSpace",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/candor-techspace.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Central Park Group",
+      "logoStatus": "generated-local",
+      "localPath": "/images/builder-logos/generated/central-park-group.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Clarion",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/clarion.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Era Resorts",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/era-resorts.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Gopaldas Bhawan",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/gopaldas-bhawan.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Orris Infrastructure",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/orris-infrastructure.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Parsvnath",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/parsvnath.png",
+      "originalSource": ""
+    },
+    {
+      "builder": "Rajdarbar Realty Limited",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/rajdarbar-realty-limited.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "TDI",
+      "logoStatus": "extracted-local",
+      "localPath": "/images/builder-logos/extracted/tdi.jpg",
+      "originalSource": ""
+    },
+    {
+      "builder": "The 3C",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/the-3c.svg",
+      "originalSource": ""
+    },
+    {
+      "builder": "Worldmark",
+      "logoStatus": "already-local",
+      "localPath": "/images/builder-logos/generated/worldmark.svg",
+      "originalSource": ""
+    }
+  ],
+  "generatedLocal": 20
+}

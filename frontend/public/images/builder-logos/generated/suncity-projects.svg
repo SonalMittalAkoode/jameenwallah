@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-label="Suncity Projects logo">
+  <rect width="320" height="120" fill="#fff"/>
+  <circle cx="83" cy="60" r="30" fill="none" stroke="#b99a63" stroke-width="6"/>
+  <path d="M68 60h30M83 45v30" stroke="#b99a63" stroke-width="5" stroke-linecap="round"/>
+  <text x="202" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#7b6a55">SUNCITY</text>
+  <text x="202" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#9a8a74">PROJECTS</text>
+</svg>

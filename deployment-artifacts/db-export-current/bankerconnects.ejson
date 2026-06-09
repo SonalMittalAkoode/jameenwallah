@@ -1,0 +1,114 @@
+[
+  {
+    "_id": {
+      "$oid": "69402b2f15ec393d5fe753f4"
+    },
+    "fullName": "aditi",
+    "email": "aditi@akoode.in",
+    "phoneNumber": "1234567890",
+    "monthlyIncome": {
+      "$numberInt": "100000"
+    },
+    "employmentType": "salaried",
+    "loanType": "commercial-loan",
+    "message": "dedo udhar",
+    "status": "pending",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1765813039815"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1765813039815"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6969e90236cafda1431551cc"
+    },
+    "fullName": "aditi",
+    "email": "aditi@akoode.in",
+    "phoneNumber": "6789876543",
+    "monthlyIncome": {
+      "$numberInt": "119"
+    },
+    "employmentType": "self-employed",
+    "loanType": "commercial-loan",
+    "message": "awertyuikjnfds",
+    "status": "pending",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1768548610284"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1768548610284"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "699d7d5c8a3b5e339f279b92"
+    },
+    "fullName": "Sonali",
+    "email": "priya.sonali@akoode.in",
+    "phoneNumber": "9899300017",
+    "monthlyIncome": {
+      "$numberInt": "30000"
+    },
+    "employmentType": "salaried",
+    "loanType": "home-loan",
+    "message": "Testing GTM",
+    "status": "pending",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1771928924396"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1771928924396"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "699d90be1004c5ad3533243f"
+    },
+    "fullName": "Akoode Marketing",
+    "email": "akoodemarketing@gmail.com",
+    "phoneNumber": "9899300017",
+    "monthlyIncome": {
+      "$numberInt": "50000"
+    },
+    "employmentType": "salaried",
+    "loanType": "home-loan",
+    "message": "GTM testing",
+    "status": "pending",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1771933886057"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1771933886057"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

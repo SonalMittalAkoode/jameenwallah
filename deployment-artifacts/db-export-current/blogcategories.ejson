@@ -1,0 +1,122 @@
+[
+  {
+    "_id": {
+      "$oid": "69159025aada5a81dc0a4acd"
+    },
+    "title": "Luxury",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763020837587"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763020861876"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915904aaada5a81dc0a4ae3"
+    },
+    "title": "Lifestyle",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763020874983"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763020874983"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915905eaada5a81dc0a4aeb"
+    },
+    "title": "Buyer’s Guide",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763020894654"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763020894654"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bc47789e3fc1d25fdf4918"
+    },
+    "title": "Investment",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773946744454"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773946744454"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d742d0d5c95edc856d4e2a"
+    },
+    "title": "Commercial Property",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1775715024281"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775715041132"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69dc8ca97cb9db90782351d7"
+    },
+    "title": "Residential Property",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1776061609136"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1776061609136"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

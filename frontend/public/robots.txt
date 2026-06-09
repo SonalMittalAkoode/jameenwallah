@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /
+
+# Block admin panel from indexing
+Disallow: /cmsadminlogin/
+
+

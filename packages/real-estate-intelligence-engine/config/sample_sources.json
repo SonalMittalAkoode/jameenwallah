@@ -1,0 +1,28 @@
+{
+  "defaults": {
+    "respect_robots_txt": true,
+    "request_delay_seconds": 2.0,
+    "timeout_seconds": 30,
+    "max_pages_per_source": 250,
+    "render_javascript": false,
+    "allowed_regions": ["Gurgaon", "Gurugram", "Noida", "Delhi NCR", "Dwarka Expressway", "Golf Course Road", "SPR"]
+  },
+  "sources": [
+    {
+      "name": "DLF",
+      "base_url": "https://www.dlf.in/",
+      "priority_keywords": ["gurgaon", "golf course", "new launch", "residential", "commercial"],
+      "render_javascript": true
+    },
+    {
+      "name": "Godrej Properties",
+      "base_url": "https://www.godrejproperties.com/",
+      "priority_keywords": ["gurgaon", "noida", "new launch", "luxury"]
+    },
+    {
+      "name": "M3M India",
+      "base_url": "https://www.m3mindia.com/",
+      "priority_keywords": ["gurgaon", "commercial", "residential", "retail"]
+    }
+  ]
+}

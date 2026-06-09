@@ -1,0 +1,162 @@
+[
+  {
+    "_id": {
+      "$oid": "693f9cdc735f0daabd5bc238"
+    },
+    "name": "Haryana",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1765776604941"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1765776604941"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fa398735f0daabd5bc3b9"
+    },
+    "name": "Uttar Pradesh",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1765778328517"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1765778328517"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693fab23735f0daabd5bc575"
+    },
+    "name": "Maharashtra",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1765780259893"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1765780259893"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69a9565daaafe16a32115949"
+    },
+    "name": "Delhi",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1772705373006"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1772705373006"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69b119006114b4564c4d2482"
+    },
+    "name": "Goa",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773213952379"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773213952379"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c00423c4bf7b63d1a08c1e"
+    },
+    "name": "Uttarakhand",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774191651457"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774191679626"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a0c354aa3ad638ae5c81c62"
+    },
+    "name": "Rajasthan",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a0c354aa3ad638ae5c81c68"
+    },
+    "name": "Punjab",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

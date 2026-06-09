@@ -1,0 +1,8 @@
+// Sass optimization configuration
+// This file reduces CSS output size
+
+// Reduce precision to decrease file size
+$precision: 5;
+
+// Disable source maps in production
+$output-style: compressed;

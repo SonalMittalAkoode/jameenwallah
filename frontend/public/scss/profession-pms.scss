@@ -1,0 +1,1538 @@
+/* ==========================================================================
+   PROPERTY MANAGEMENT SERVICES THEME  (#ff385c brand + crisp white)
+   Layout feel: Professional, calm, trustworthy — like a property concierge
+   ========================================================================== */
+
+@use "sass:color";
+
+$pms-red: #ff385c;
+$pms-red-hover: #e5294d;
+$pms-dark: #1a1a2e;
+$pms-text: #2d3748;
+$pms-bg: #f7f8fc;
+
+/* ─── Hero ─── */
+.pms-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  // padding: 100px 0;
+  background: #222222;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background: url("/images/background/pms_hero.png") no-repeat center / cover;
+    filter: grayscale(100%) brightness(0.6) contrast(1.2);
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(34, 34, 34, 0.95) 0%, rgba(34, 34, 34, 0.4) 100%);
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+
+    span {
+      color: $pms-red;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 32px;
+    }
+  }
+
+  &__desc {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.75;
+    margin: 0 0 32px;
+    max-width: 700px;
+  }
+
+  &__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+}
+
+.pms-eyebrow {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $pms-red;
+  margin-bottom: 20px;
+}
+
+.pms-stat-badge {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-align: center;
+
+  &__num {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__lbl {
+    display: block;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* ─── Inline Form Card ─── */
+.pms-form-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+
+  &__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: $pms-text;
+    margin-bottom: 6px;
+  }
+
+  &__sub {
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 24px;
+  }
+}
+
+.pms-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  &__group {
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: $pms-text;
+      margin-bottom: 6px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 14px;
+      color: $pms-text;
+      background: #f7f8fc;
+      transition: border-color 0.2s;
+
+      &:focus {
+        outline: none;
+        border-color: $pms-red;
+        background: #fff;
+      }
+    }
+
+    textarea {
+      resize: none;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 14px;
+    background: $pms-red;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: $pms-red-hover;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+/* ─── Services Section ─── */
+.pms-services-section {
+  background: $pms-bg;
+}
+
+.pms-kicker {
+  color: $pms-red;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.pms-tab-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  /* room for shadow */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+
+  /* IE */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Chrome/Safari */
+}
+
+.pms-tab-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: $pms-text;
+  cursor: pointer;
+  transition: all 0.25s;
+  white-space: nowrap;
+
+  &:hover {
+    border-color: $pms-red;
+    background: $pms-red;
+    color: #fff;
+  }
+
+  &--active {
+    background: $pms-red;
+    color: #fff !important;
+    border-color: $pms-red;
+    box-shadow: 0 4px 14px rgba($pms-red, 0.35);
+
+    * {
+      color: #fff !important;
+    }
+  }
+}
+
+.pms-svc-detail-icon {
+  width: 72px;
+  height: 72px;
+  background: rgba($pms-red, 0.08);
+  color: $pms-red;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.pms-svc-detail-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: $pms-text;
+  margin-bottom: 16px;
+}
+
+.pms-svc-detail-desc {
+  font-size: 16px;
+  color: #718096;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.pms-svc-detail-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 28px;
+  background: $pms-red;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $pms-red-hover;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+}
+
+/* Listing: text + featured image (replaces bullet column) */
+.pms-svc-detail-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pms-svc-detail-text {
+  padding-left: 0 !important;
+
+  @media (min-width: 992px) {
+    padding-top: 48px;
+  }
+
+  @media (max-width: 991px) {
+    padding-right: 0 !important;
+    padding-top: 8px;
+  }
+}
+
+.pms-svc-detail-feature {
+  align-self: stretch;
+}
+
+.pms-svc-feature-image-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+  aspect-ratio: 16 / 10;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 18px 48px rgba(24, 26, 32, 0.08);
+  background: #f4f4f5;
+}
+
+.pms-svc-feature-image {
+  object-fit: cover;
+}
+
+.pms-points-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: #fff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border-left: 3px solid $pms-red;
+    font-size: 15px;
+    color: $pms-text;
+    font-weight: 500;
+  }
+
+  &__dot {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    background: rgba($pms-red, 0.1);
+    color: $pms-red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    margin-top: 1px;
+  }
+}
+
+/* ─── Why Us Section ─── */
+.pms-why-section {
+  background: #fff;
+}
+
+.pms-why-card {
+  padding: 28px;
+  border-radius: 12px;
+  background: $pms-bg;
+  border-top: 3px solid transparent;
+  transition: all 0.3s;
+  height: 100%;
+
+  &__icon {
+    font-size: 28px;
+    color: $pms-red;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: $pms-text;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: #718096;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  &:hover {
+    border-top-color: $pms-red;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba($pms-red, 0.06);
+  }
+}
+
+/* ─── CTA Strip ─── */
+.pms-cta-strip {
+  background: $pms-red;
+  padding: 70px 0;
+  text-align: center;
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 36px;
+    background: #fff;
+    color: $pms-red;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+
+    &:hover {
+      background: $pms-dark;
+      color: #fff;
+    }
+  }
+}
+
+/* ==========================================================================
+   PROPERTY MANAGEMENT DETAIL PAGE
+   ========================================================================== */
+
+.pmsd-hero {
+  position: relative;
+  padding: 120px 0 70px;
+  background: linear-gradient(135deg, #121625 0%, #1f2437 100%);
+  overflow: hidden;
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 15% 20%, rgba($pms-red, 0.18) 0%, transparent 32%),
+      radial-gradient(circle at 88% 18%, rgba(#fff, 0.08) 0%, transparent 28%);
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (max-width: 991px) {
+    padding: 108px 0 56px;
+  }
+}
+
+.pmsd-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.68);
+
+  a {
+    color: rgba(255, 255, 255, 0.78);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.pmsd-kicker {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: $pms-red;
+  margin-bottom: 16px;
+}
+
+.pmsd-title {
+  font-size: 52px;
+  line-height: 1.08;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 18px;
+
+  @media (max-width: 991px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 30px;
+  }
+}
+
+.pmsd-summary {
+  font-size: 16px;
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.76);
+  max-width: 600px;
+  margin-bottom: 28px;
+}
+
+.pmsd-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pmsd-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 13px;
+
+  strong {
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.pmsd-hero-media {
+  position: relative;
+  padding-left: 26px;
+
+  @media (max-width: 991px) {
+    padding-left: 0;
+  }
+
+  &__image-wrap {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.32);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(18, 22, 37, 0) 45%, rgba(18, 22, 37, 0.12) 100%);
+      pointer-events: none;
+    }
+  }
+
+  &__image {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 420px;
+    object-fit: cover;
+
+    @media (max-width: 575px) {
+      min-height: 280px;
+    }
+  }
+
+  &__note {
+    position: absolute;
+    left: 0;
+    right: 34px;
+    bottom: -22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    span {
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: #fff;
+      color: $pms-dark;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+    }
+
+    @media (max-width: 991px) {
+      right: 0;
+      bottom: -18px;
+    }
+
+    @media (max-width: 575px) {
+      position: static;
+      margin-top: 16px;
+
+      span {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.pmsd-main {
+  background: linear-gradient(180deg, #f7f8fc 0%, #ffffff 100%);
+}
+
+.pmsd-intro-card,
+.pmsd-content-card,
+.pmsd-sidebar__panel,
+.pmsd-cta-panel {
+  background: #fff;
+  border: 1px solid rgba(26, 26, 46, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 14px 40px rgba(17, 24, 39, 0.06);
+}
+
+.pmsd-intro-card {
+  display: flex;
+  gap: 20px;
+  padding: 28px;
+  margin-bottom: 24px;
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  &__icon {
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: rgba($pms-red, 0.1);
+    color: $pms-red;
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: $pms-dark;
+
+    @media (max-width: 575px) {
+      font-size: 24px;
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+    color: #697386;
+    line-height: 1.8;
+  }
+}
+
+.pmsd-section-kicker {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $pms-red;
+}
+
+.pmsd-content-card {
+  padding: 32px 28px;
+  margin-bottom: 40px;
+
+  @media (max-width: 575px) {
+    padding: 26px 22px;
+  }
+}
+
+.pmsd-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+
+  h3 {
+    font-size: 20px;
+    color: $pms-dark;
+    margin-bottom: 0;
+  }
+}
+
+.pmsd-prose {
+  p {
+    font-size: 15px;
+    line-height: 1.95;
+    color: #657085;
+    margin-bottom: 14px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.pmsd-check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #4d596d;
+  }
+
+  &__icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba($pms-red, 0.1);
+    color: $pms-red;
+    font-size: 12px;
+    margin-top: 1px;
+  }
+}
+
+.pmsd-tag-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pmsd-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: #f7f8fc;
+  border: 1px solid rgba(26, 26, 46, 0.08);
+  color: $pms-dark;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.pmsd-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+
+  @media (max-width: 991px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pmsd-process-card {
+  padding: 20px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fff 0%, #f7f8fc 100%);
+  border: 1px solid rgba(26, 26, 46, 0.08);
+
+  h4 {
+    font-size: 17px;
+    margin-bottom: 8px;
+    color: $pms-dark;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #657085;
+  }
+
+  &__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    border-radius: 999px;
+    background: $pms-dark;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+}
+
+.pmsd-cta-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 28px;
+  margin-top: 4px;
+
+  h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: $pms-dark;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+    color: #697386;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .ud-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+.pmsd-sidebar {
+  position: sticky;
+  top: 92px;
+
+  @media (max-width: 991px) {
+    position: static;
+  }
+
+  &__panel {
+    padding: 24px;
+    margin-bottom: 18px;
+
+    &--dark {
+      background: linear-gradient(160deg, #171b2b 0%, #23293d 100%);
+      color: #fff;
+      border-color: transparent;
+
+      h3 {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.72);
+        line-height: 1.8;
+      }
+    }
+  }
+
+  &__eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: $pms-red;
+    margin-bottom: 10px;
+  }
+}
+
+.pmsd-form {
+  &__group {
+    margin-bottom: 14px;
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #4d596d;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(26, 26, 46, 0.1);
+      background: #f7f8fc;
+      padding: 12px 14px;
+      font-size: 14px;
+      color: $pms-dark;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:focus {
+        outline: none;
+        background: #fff;
+        border-color: rgba($pms-red, 0.7);
+        box-shadow: 0 0 0 3px rgba($pms-red, 0.08);
+      }
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 118px;
+    }
+  }
+
+  &__note {
+    margin: 12px 0 0;
+    text-align: center;
+    color: #8a93a5;
+    font-size: 12px;
+  }
+}
+
+.pmsd-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 14px;
+    border-radius: 14px;
+    background: #f7f8fc;
+    border: 1px solid rgba(26, 26, 46, 0.08);
+    color: $pms-dark;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    i {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba($pms-red, 0.1);
+      color: $pms-red;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      border-color: rgba($pms-red, 0.4);
+      color: $pms-red;
+      background: #fff;
+    }
+  }
+}
+
+/* ==========================================================================
+   PMS DETAIL PAGE – EXTENDED PREMIUM STYLES
+   ========================================================================== */
+
+/* ── Hero Glow & Overlay ── */
+.pmsd-hero {
+  &__glow {
+    position: absolute;
+    top: -120px;
+    right: -80px;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba($pms-red, 0.22) 0%, transparent 70%);
+    pointer-events: none;
+    animation: pmsd-pulse 6s ease-in-out infinite;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    margin-top: 36px;
+  }
+}
+
+.pmsd-hero-media__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 55%, rgba(18, 22, 37, 0.35) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+@keyframes pmsd-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50%       { transform: scale(1.12); opacity: 1; }
+}
+
+.pmsd-ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(6px);
+
+  &:hover {
+    border-color: $pms-red;
+    background: rgba($pms-red, 0.12);
+    color: #fff;
+  }
+
+  i { font-size: 12px; }
+}
+
+/* ── Floating Stats Bar ── */
+.pmsd-stats-bar {
+  background: #fff;
+  box-shadow: 0 4px 30px rgba(17, 24, 39, 0.1);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.06);
+  position: relative;
+  z-index: 10;
+
+  &__inner {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 40px;
+    position: relative;
+    flex: 1;
+    min-width: 160px;
+
+    @media (max-width: 767px) {
+      padding: 16px 20px;
+      min-width: 120px;
+    }
+  }
+
+  &__val {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: $pms-dark;
+    white-space: nowrap;
+  }
+
+  &__lbl {
+    display: block;
+    font-size: 11px;
+    color: #8a93a5;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 4px;
+    white-space: nowrap;
+  }
+
+  &__sep {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: rgba(26, 26, 46, 0.1);
+  }
+}
+
+/* ── Overview Card ── */
+.pmsd-overview-card {
+  position: relative;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f8fc 100%);
+  border: 1px solid rgba(26, 26, 46, 0.08);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(17, 24, 39, 0.06);
+  margin-bottom: 40px;
+
+  &__accent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    background: linear-gradient(180deg, $pms-red 0%, rgba($pms-red, 0.4) 100%);
+  }
+
+  &__body {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 32px 32px 32px 38px;
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+      gap: 18px;
+      padding: 26px 22px 26px 30px;
+    }
+  }
+
+  &__icon-wrap {
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background: linear-gradient(135deg, $pms-red 0%, color.adjust($pms-red, $lightness: -12%) 100%);
+    color: #fff;
+    box-shadow: 0 10px 24px rgba($pms-red, 0.35);
+  }
+
+  &__content {
+    flex: 1;
+
+    h2 {
+      font-size: 26px;
+      color: $pms-dark;
+      margin-bottom: 10px;
+      line-height: 1.25;
+
+      @media (max-width: 575px) { font-size: 22px; }
+    }
+  }
+
+  &__lead {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #657085;
+    margin-bottom: 0;
+  }
+
+  /* Detail page: featured / profile image instead of icon + Service Overview copy */
+  &--photo {
+    .pmsd-overview-card__accent {
+      z-index: 2;
+    }
+  }
+}
+
+.pmsd-overview-card__image-frame {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  aspect-ratio: 2 / 1;
+  background: #eef0f4;
+
+  @media (max-width: 575px) {
+    min-height: 220px;
+    aspect-ratio: 16 / 10;
+  }
+}
+
+.pmsd-overview-card__image {
+  object-fit: cover;
+}
+
+/* ── Card Head Enhancement ── */
+.pmsd-card-head__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pmsd-card-head__dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $pms-red;
+  box-shadow: 0 0 0 3px rgba($pms-red, 0.2);
+  flex-shrink: 0;
+}
+
+/* ── Prose Lead Paragraph ── */
+.pmsd-prose__lead {
+  font-size: 16px !important;
+  font-weight: 500;
+  color: $pms-dark !important;
+  line-height: 1.85 !important;
+  padding: 18px 20px;
+  border-left: 3px solid $pms-red;
+  background: rgba($pms-red, 0.04);
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 20px !important;
+}
+
+/* Admin WYSIWYG / escaped plain text rendered as HTML */
+.pmsd-prose__html {
+  font-size: 15px;
+  line-height: 1.85;
+  color: rgba($pms-dark, 0.92);
+
+  p {
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  > p:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    color: $pms-dark;
+    padding: 18px 20px;
+    border-left: 3px solid $pms-red;
+    background: rgba($pms-red, 0.04);
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 20px;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 1em;
+    padding-left: 1.25em;
+  }
+
+  a {
+    color: $pms-red;
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+/* ── Feature List (replaces check-list) ── */
+.pmsd-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  &__item {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    align-items: center;
+    gap: 0 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(26, 26, 46, 0.06);
+    transition: background 0.2s;
+
+    &:last-child { border-bottom: none; }
+
+    &:hover .pmsd-feature-list__icon {
+      background: $pms-red;
+      color: #fff;
+    }
+  }
+
+  /* &__num removed per user request */
+
+  &__icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba($pms-red, 0.1);
+    color: $pms-red;
+    font-size: 11px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: #4d596d;
+    line-height: 1.6;
+  }
+}
+
+/* ── Persona Cards (Best Suited For) ── */
+.pmsd-persona-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pmsd-persona-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f7f8fc 0%, #ffffff 100%);
+  border: 1px solid rgba(26, 26, 46, 0.07);
+  transition: all 0.25s ease;
+  cursor: default;
+
+  &:hover {
+    border-color: rgba($pms-red, 0.3);
+    background: rgba($pms-red, 0.02);
+    transform: translateX(4px);
+  }
+
+  &__icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background: rgba($pms-red, 0.1);
+    color: $pms-red;
+    flex-shrink: 0;
+  }
+
+  &__text {
+    font-size: 13.5px;
+    font-weight: 500;
+    color: $pms-dark;
+    line-height: 1.4;
+  }
+}
+
+/* ── Visual Timeline (How We Handle It) ── */
+.pmsd-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.pmsd-timeline__step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 0 20px;
+}
+
+.pmsd-timeline__track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pmsd-timeline__circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, $pms-dark 0%, #2d3748 100%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+  box-shadow: 0 6px 18px rgba(26, 26, 46, 0.2);
+  z-index: 1;
+  position: relative;
+
+  .pmsd-timeline__step:first-child & {
+    background: linear-gradient(135deg, $pms-red 0%, color.adjust($pms-red, $lightness: -10%) 100%);
+    box-shadow: 0 6px 18px rgba($pms-red, 0.35);
+  }
+}
+
+.pmsd-timeline__line {
+  width: 2px;
+  flex: 1;
+  min-height: 30px;
+  background: linear-gradient(180deg, rgba($pms-red, 0.4) 0%, rgba(26, 26, 46, 0.12) 100%);
+  margin: 6px 0;
+}
+
+.pmsd-timeline__content {
+  padding: 10px 0 28px;
+
+  h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: $pms-dark;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #657085;
+    margin-bottom: 0;
+  }
+}
+
+/* ── CTA Strip (replaces cta-panel) ── */
+.pmsd-cta-strip {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 36px 36px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #121625 0%, #23293d 60%, rgba($pms-red, 0.15) 100%);
+  border: 1px solid rgba($pms-red, 0.15);
+  box-shadow: 0 20px 50px rgba(18, 22, 37, 0.25);
+  margin-top: 4px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 24px;
+  }
+
+  &__glow {
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba($pms-red, 0.3) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+
+    h3 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+
+      @media (max-width: 575px) { font-size: 22px; }
+    }
+
+    p {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.65);
+      margin-bottom: 0;
+      line-height: 1.75;
+      max-width: 420px;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 15px 30px;
+    background: $pms-red;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba($pms-red, 0.4);
+    flex-shrink: 0;
+
+    &:hover {
+      background: color.adjust($pms-red, $lightness: -8%);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba($pms-red, 0.5);
+    }
+
+    @media (max-width: 767px) { width: 100%; justify-content: center; }
+  }
+}
+
+/* ── Misc: pmsd-prose-card left stripe ── */
+.pmsd-prose-card {
+  border-left: 3px solid rgba($pms-red, 0.18);
+}
+
+/* ── Mobile overrides for timeline ── */
+@media (max-width: 575px) {
+  .pmsd-timeline__step {
+    grid-template-columns: 44px 1fr;
+    gap: 0 14px;
+  }
+
+  .pmsd-timeline__circle {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+
+/* ── Utility Spacing ── */
+.mb30 { margin-bottom: 30px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.mb50 { margin-bottom: 50px !important; }
+.mt40 { margin-top: 40px !important; }
+

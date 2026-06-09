@@ -1,0 +1,389 @@
+/* ==========================================================================
+   ARCHITECT PROFESSION THEME (Dark Warm & Amber)
+   ========================================================================== */
+
+$arch-dark: #222222;
+$arch-amber: #ff385c;
+$arch-amber-hover: #e5294d;
+$arch-gray: #f8f9fa;
+
+/* --- Hero --- */
+.arch-hero {
+  // position: relative;
+  // padding: 70px 0 60px;
+  background: $arch-dark;
+  color: #fff;
+  overflow: hidden;
+  min-height: 550px;
+
+  @media (max-width: 767px) {
+    min-height: 420px;
+    padding: 50px 0 !important;
+
+    &__bg {
+      background-size: cover !important;
+    }
+
+    &__title {
+      font-size: 32px !important;
+      margin-bottom: 16px !important;
+
+      br {
+        display: none;
+      }
+    }
+
+    &__desc {
+      font-size: 15px !important;
+      margin-bottom: 24px !important;
+    }
+
+    &__cta-row {
+      flex-direction: column !important;
+      gap: 12px !important;
+
+      a {
+        width: 100% !important;
+        justify-content: center !important;
+        padding: 12px 20px !important;
+        font-size: 14px !important;
+      }
+    }
+
+    &__accent-num {
+      font-size: 80px !important;
+    }
+  }
+
+  @media (max-width: 575px) {
+    min-height: 380px;
+    padding: 40px 0 !important;
+
+    &__title {
+      font-size: 26px !important;
+    }
+
+    &__desc {
+      font-size: 14px !important;
+    }
+
+    &__cta-row {
+      a {
+        padding: 10px 16px !important;
+        font-size: 13px !important;
+      }
+    }
+
+    &__accent-num {
+      font-size: 60px !important;
+    }
+  }
+
+  @media (max-width: 375px) {
+    min-height: 350px;
+
+    &__title {
+      font-size: 24px !important;
+    }
+
+    &__desc {
+      font-size: 13px !important;
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    // filter: grayscale(100%) brightness(0.6) contrast(1.2);
+  }
+
+  &__grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    // background-size: 40px 40px;
+  }
+
+  &__tint {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba($arch-dark, 0.95) 0%, rgba($arch-dark, 0.4) 100%);
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $arch-amber;
+    margin-bottom: 30px;
+  }
+
+  &__line {
+    width: 50px;
+    height: 2px;
+    background: $arch-amber;
+  }
+
+  &__title {
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    color: #fff;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &__desc {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 1.8;
+  }
+
+  &__cta-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  &__cta-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 40px;
+    background: #fff;
+    color: $arch-dark;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+
+    &:hover {
+      background: $arch-amber;
+      color: #fff;
+    }
+  }
+
+  &__scroll-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $arch-amber;
+    }
+  }
+
+  &__accent-num {
+    position: absolute;
+    right: -5%;
+    bottom: -10%;
+    font-size: 400px;
+    font-weight: 800;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.03);
+    z-index: 1;
+  }
+}
+
+/* --- Stats --- */
+.arch-stats-section {
+  padding: 80px 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.arch-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .arch-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+.arch-stat-item {
+  &__num {
+    font-size: 56px;
+    font-weight: 300;
+    color: $arch-dark;
+    line-height: 1;
+    margin-bottom: 16px;
+
+    span {
+      color: $arch-amber;
+    }
+  }
+
+  &__divider {
+    width: 30px;
+    height: 3px;
+    background: $arch-amber;
+    margin-bottom: 16px;
+  }
+
+  &__label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888;
+  }
+}
+
+/* --- Services --- */
+.arch-services-section {
+  background: $arch-gray;
+}
+
+.arch-kicker {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $arch-amber;
+  margin-bottom: 12px;
+}
+
+.arch-svc-card {
+  background: #fff;
+  padding: 40px;
+  position: relative;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  &__num {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba($arch-dark, 0.1);
+    line-height: 1;
+  }
+
+  &__icon {
+    font-size: 32px;
+    color: $arch-dark;
+    margin-bottom: 30px;
+    transition: color 0.3s;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: $arch-dark;
+  }
+
+  &__text {
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+
+    .arch-svc-card__icon {
+      color: $arch-amber;
+    }
+  }
+}
+
+/* --- Why Us & Process --- */
+.prof-why--architect i,
+.prof-process--architect i {
+  color: $arch-amber;
+}
+
+.prof-why-kicker--architect,
+.prof-process-kicker--architect {
+  color: $arch-amber;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.prof-why--architect h2.title,
+.prof-process--architect h2.title {
+  font-weight: 300;
+}
+
+.arch-why-corner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: $arch-amber;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.prof-why-cta--architect {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 35px;
+  border: 1px solid $arch-dark;
+  color: $arch-dark;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $arch-dark;
+    color: #fff;
+  }
+}
+
+.prof-step-row--architect {
+  .prof-step-row__icon {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba($arch-amber, 0.3);
+    border-radius: 50%;
+    color: $arch-amber;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+
+  h5 {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+}

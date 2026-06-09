@@ -1,0 +1,414 @@
+[
+  {
+    "_id": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "name": "Gurgaon",
+    "state": {
+      "$oid": "693f9cdc735f0daabd5bc238"
+    },
+    "image": "/images/1763013675034-listing_img_1.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763013675047"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775852558090"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "description": "BigCat Realty brings you a diverse selection of properties for sale in Gurgaon, one of India’s most prominent corporate and residential hubs. Our listings include modern apartments, luxury residences, office spaces, and retail properties located across prime sectors and emerging corridors of the city. \r\n\r\nGurgaon’s strong infrastructure, connectivity, and corporate ecosystem make it a preferred destination for both homebuyers and real estate investors. Whether you are seeking a contemporary home, a high-yield commercial space, or a long-term investment opportunity, our consultants help you evaluate properties based on location, value, and growth potential. \r\n\r\nWith deep local market expertise and a transparent advisory approach, BigCat Realty supports clients throughout their property journey in Gurgaon, ensuring verified listings, clear documentation, and smooth transactions.",
+    "isTrending": "deactive",
+    "metaDescription": "Explore properties in Gurgaon including flats, plots & commercial spaces in prime sectors. Find homes and investment options with strong growth.",
+    "metaTitle": "Properties for Sale in Gurgaon | Flats & Plots",
+    "cityH1Title": "Properties for Sale in Gurgaon",
+    "listingPageCard": {
+      "title": "Residential & Commercial Properties in Gurgaon with High Investment Potential",
+      "description": "Gurgaon has emerged as one of the most sought-after real estate markets in NCR, offering a wide range of residential and commercial properties across prime and developing sectors. With strong corporate presence, modern infrastructure, and seamless connectivity to Delhi, the city continues to attract both homebuyers and investors looking for long-term value.\r\n\r\nBuyers can explore multiple property options including 2 BHK and 3 BHK apartments, luxury residences, builder floors, office spaces, retail shops, and residential plots. Key locations such as Golf Course Road, Golf Course Extension Road, Dwarka Expressway, Sohna Road, and New Gurgaon are witnessing rapid development and strong demand.\r\n\r\nThe real estate market in Gurgaon is driven by proximity to business hubs, metro expansion, expressways, and well-developed social infrastructure including schools, hospitals, and retail centers. Premium areas cater to luxury buyers, while emerging sectors offer attractive pricing and strong appreciation potential.\r\n\r\nWhether you are looking to buy a home or invest in high-growth real estate, Gurgaon offers diverse opportunities across different budget segments and investment goals."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69157655d6dc632a54d6ea38"
+    },
+    "name": "Delhi",
+    "state": {
+      "$oid": "69a9565daaafe16a32115949"
+    },
+    "image": "/images/1763014229296-listing_img_2.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014229310"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775852908385"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "description": "BigCat Realty offers access to verified properties for sale in Delhi, catering to buyers seeking established residential neighborhoods and long-term stability. Our listings include apartments and residential options located across key areas of the city. \r\n\r\nDelhi’s real estate market is driven by its mature infrastructure, connectivity, and consistent demand. Whether you are purchasing a home for personal use or evaluating property as a long-term asset, our consultants help you make informed decisions based on market realities. \r\n\r\nWith a client-first approach, BigCat Realty supports buyers in Delhi through every step of the property journey, ensuring reliability, compliance, and peace of mind. ",
+    "isTrending": "deactive",
+    "metaDescription": "Explore residential and commercial properties in Delhi across prime areas. Find flats, builder floors, and investment opportunities.",
+    "metaTitle": "Properties for Sale in Delhi | Flats & Homes",
+    "cityH1Title": "Properties for Sale in Delhi",
+    "listingPageCard": {
+      "title": "Flats, Builder Floors & Properties in Delhi",
+      "description": "Delhi offers a diverse and well-established real estate market with a mix of residential and commercial properties across different zones. As the capital city, it provides unmatched connectivity, social infrastructure, and access to key business districts, making it a preferred location for end-users and investors alike.\r\n\r\nThe residential market in Delhi is dominated by builder floors, independent houses, and apartments, especially in areas such as South Delhi and West Delhi. These locations are known for premium housing options, while other parts of the city offer relatively affordable choices for buyers.\r\n\r\nCommercial properties in Delhi also hold strong demand due to the presence of established markets, office spaces, and business centers. The city’s extensive metro network and road connectivity ensure ease of travel across different areas.\r\n\r\nOne of the key advantages of investing in Delhi real estate is its stability and consistent demand. Unlike emerging markets, Delhi offers mature neighborhoods with well-developed infrastructure, making it a reliable option for long-term investment.\r\n\r\nWhether you are looking for a residential property or a commercial space, Delhi provides a wide range of options catering to different budgets and requirements."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "name": "Noida",
+    "state": {
+      "$oid": "693fa398735f0daabd5bc3b9"
+    },
+    "image": "/images/1763014528567-listing_img_3.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014528583"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775852849622"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "description": "BigCat Realty offers access to carefully selected properties for sale in Noida, a planned city known for modern infrastructure and rapid development. Our Noida listings feature residential apartments, housing projects, and investment-focused properties across well-connected sectors. \r\n\r\nNoida appeals to first-time homebuyers and long-term investors due to its balanced pricing, improving connectivity, and growing employment zones. Our team assists clients in understanding project potential, neighborhood advantages, and future appreciation prospects before making a decision. \r\n\r\nFrom initial property shortlisting to site visits and final paperwork, BigCat Realty provides end-to-end real estate assistance in Noida, helping buyers navigate the market with confidence and clarity. ",
+    "isTrending": "deactive",
+    "metaDescription": "Find flats, plots & commercial properties in Noida across top sectors. Explore affordable homes and high-growth investment options.",
+    "metaTitle": "Properties for Sale in Noida | Flats & Plots",
+    "cityH1Title": "Properties for Sale in Noida",
+    "listingPageCard": {
+      "title": "Flats, Plots & Commercial Properties in Noida",
+      "description": "Noida has established itself as a well-planned real estate destination in NCR, offering a wide range of residential and commercial properties across organized sectors. With wide roads, metro connectivity, and proximity to Delhi, the city attracts homebuyers seeking convenience as well as investors looking for steady growth.\r\n\r\nThe real estate landscape in Noida includes modern apartments, builder floors, commercial office spaces, retail shops, and plotted developments. Sectors along the Noida Expressway, such as 137 and 150, are particularly popular for their green surroundings and modern infrastructure, while central sectors offer ready-to-move housing options.\r\n\r\nNoida’s growth is driven by the presence of IT parks, educational institutions, and commercial hubs, making it a preferred location for working professionals and families. Infrastructure developments such as metro expansion and improved road connectivity continue to enhance accessibility across the city.\r\n\r\nCompared to Gurgaon, Noida offers relatively affordable pricing, making it attractive for first-time buyers and investors seeking value-driven opportunities. The availability of integrated townships and gated communities further adds to its appeal.\r\n\r\nWith strong connectivity, planned development, and growing demand, Noida provides a balanced real estate market suitable for both end-use and long-term investment."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "691577bb5338d96a1f067735"
+    },
+    "name": "Greater Noida",
+    "state": {
+      "$oid": "693fa398735f0daabd5bc3b9"
+    },
+    "image": "/images/1763014587365-listing_img_4.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014587370"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775852986332"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "isTrending": "deactive",
+    "metaDescription": "Explore flats, plots & commercial properties in Greater Noida. Ideal for affordable homes and long-term investment growth.",
+    "metaTitle": "Properties in Greater Noida | Flats & Investment",
+    "cityH1Title": "Properties for Sale in Greater Noida",
+    "description": "BigCat Realty presents a range of properties for sale in Greater Noida, a fast-growing real estate destination offering spacious planning and long-term growth potential. Our listings include residential projects, plotted developments, and investment-friendly opportunities across key zones of the city. \r\n\r\nGreater Noida is ideal for buyers looking for value-driven properties with future appreciation, supported by infrastructure development and expanding connectivity. Our consultants help clients assess project quality, location benefits, and long-term suitability based on individual goals. \r\n\r\nWith a focus on transparency and verified listings, BigCat Realty ensures a smooth and informed property-buying experience in Greater Noida, guiding clients through every stage of the process. ",
+    "listingPageCard": {
+      "title": "Flats, Plots & Investment Properties in Greater Noida",
+      "description": "Greater Noida has steadily emerged as a promising real estate destination in the NCR region, offering a mix of affordable housing, plotted developments, and commercial investment opportunities. Known for its planned infrastructure and wide roads, the area appeals to both first-time homebuyers and long-term investors.\r\n\r\nThe region offers a variety of property options including apartments, villas, residential plots, and commercial spaces. Areas such as Greater Noida West and the Yamuna Expressway corridor are witnessing increased interest due to competitive pricing and upcoming infrastructure projects. These locations provide modern housing options within gated communities, making them suitable for families as well as investors.\r\n\r\nOne of the key growth drivers for Greater Noida is its connectivity to Noida, Delhi, and other parts of NCR. The upcoming Jewar International Airport and ongoing infrastructure developments are expected to significantly boost real estate demand in the coming years. This makes the region particularly attractive for those looking at future appreciation.\r\n\r\nCompared to Gurgaon and central Noida, Greater Noida offers larger living spaces at relatively lower prices, making it an ideal choice for budget-conscious buyers. Additionally, the presence of educational institutions, industrial zones, and commercial developments contributes to its steady growth.\r\n\r\nWhether you are planning to buy a home or invest in a high-potential location, Greater Noida provides a balanced combination of affordability and future growth prospects."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "691577cf5338d96a1f067744"
+    },
+    "name": "Mumbai",
+    "state": {
+      "$oid": "693fab23735f0daabd5bc575"
+    },
+    "image": "/images/1763017748721-listing_img_5.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014607683"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775853070848"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "isTrending": "deactive",
+    "metaDescription": "Explore apartments, luxury homes & commercial properties in Mumbai across prime locations like Worli and Mulund.",
+    "metaTitle": "Properties for Sale in Mumbai | Flats & Homes",
+    "cityH1Title": "Properties for Sale in Mumbai",
+    "description": "BigCat Realty features select properties for sale in Mumbai, India’s most dynamic and competitive real estate market. Our Mumbai listings focus on residential apartments and premium housing options located in well-established and emerging neighborhoods. \r\n\r\nMumbai attracts buyers seeking lifestyle convenience, strong rental demand, and long-term value. Navigating this market requires careful evaluation of location, pricing, and project credibility — areas where our experienced consultants add significant value. \r\n\r\nBigCat Realty assists clients with verified listings, market insights, and professional support, helping buyers secure the right property in Mumbai with confidence and transparency. ",
+    "listingPageCard": {
+      "title": "Apartments, Luxury Homes & Properties in Mumbai",
+      "description": "Mumbai, the financial capital of India, offers one of the most premium and high-demand real estate markets in the country. With limited land availability and continuous urban expansion, the city presents a mix of luxury residences, compact apartments, and high-value commercial properties.\r\n\r\nThe residential landscape includes high-rise apartments, sea-facing homes, and gated communities across key locations such as Worli, Bandra, Lower Parel, and Mulund. These areas are well-connected to business districts and offer access to top-tier social infrastructure, making them desirable for both end-users and investors.\r\n\r\nCommercial real estate in Mumbai is equally strong, with office spaces and retail hubs witnessing consistent demand due to the presence of corporate headquarters, financial institutions, and startups. This ensures steady rental income and long-term capital appreciation for investors.\r\n\r\nConnectivity through local trains, metro lines, and expressways plays a major role in shaping property demand across different parts of the city. Infrastructure projects such as coastal roads and metro expansion continue to enhance accessibility and real estate value.\r\n\r\nDespite higher entry costs compared to other cities, Mumbai remains a stable and high-return market due to strong demand and limited supply. Whether for residential living or investment purposes, the city offers diverse real estate opportunities aligned with different financial goals."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "691577ea5338d96a1f067753"
+    },
+    "name": "Goa",
+    "state": {
+      "$oid": "69b119006114b4564c4d2482"
+    },
+    "image": "/images/1763014634735-listing_img_6.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014634743"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775853131854"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "isTrending": "deactive",
+    "metaDescription": "Explore villas, apartments & holiday homes in Goa. Ideal for lifestyle living and rental investment opportunities.",
+    "metaTitle": "Properties in Goa | Villas, Flats & Homes",
+    "cityH1Title": "Properties for Sale in Goa",
+    "description": "BigCat Realty showcases select properties for sale in Goa, appealing to buyers looking for lifestyle homes, second residences, and long-term real estate investments. Our listings include villas, apartments, and land options in well-connected and peaceful locations. \r\n\r\nGoa’s property market attracts buyers seeking a balance between leisure, privacy, and appreciation potential. Whether you are planning a holiday home or a future-focused investment, our consultants provide guidance tailored to local market conditions. \r\n\r\nBigCat Realty ensures verified opportunities, clear ownership, and professional assistance, helping clients explore property options in Goa with confidence and ease. ",
+    "listingPageCard": {
+      "title": "Villas, Apartments & Holiday Homes in Goa",
+      "description": "Goa offers a unique real estate market that blends lifestyle living with investment potential. Known for its scenic beauty, beaches, and relaxed environment, the region attracts buyers looking for second homes, vacation properties, and rental investments.\r\n\r\nThe property landscape in Goa includes villas, apartments, gated communities, and boutique developments across popular locations such as North Goa and South Goa. Villas and independent homes are particularly in demand among buyers seeking privacy and luxury, while apartments cater to those looking for compact and manageable options.\r\n\r\nOne of the key drivers of Goa’s real estate demand is its strong tourism industry. Properties in prime areas can generate steady rental income, especially during peak travel seasons, making them attractive for investors.\r\n\r\nUnlike metro cities, Goa offers a slower-paced lifestyle, which has become increasingly appealing to remote workers and individuals looking to relocate. Infrastructure improvements and better connectivity are further supporting the growth of the real estate market.\r\n\r\nWhether you are looking for a holiday home or an income-generating property, Goa provides a range of options that combine lifestyle benefits with long-term value."
+    }
+  },
+  {
+    "_id": {
+      "$oid": "691578045338d96a1f067762"
+    },
+    "name": "Pataudi",
+    "state": {
+      "$oid": "6915a9269747548bf265bc18"
+    },
+    "image": "/images/1763014660031-listing_img_7.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014660038"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1769958593814"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "isTrending": "deactive",
+    "metaDescription": "Find land and residential properties for sale in Pataudi with trusted real estate guidance from BigCat Realty.",
+    "metaTitle": "Properties for Sale in Pataudi | BigCat Realty",
+    "cityH1Title": "Properties for Sale in Pataudi",
+    "description": "BigCat Realty offers property opportunities in Pataudi for buyers seeking quieter locations with long-term growth potential. Our listings include residential options and land parcels suitable for future development and investment. \r\n\r\nPataudi appeals to buyers looking beyond crowded urban centers, offering space, affordability, and emerging infrastructure. Our team assists clients in evaluating property suitability, legal clarity, and long-term prospects before making a purchase. \r\n\r\nWith transparent consultants services and verified listings, BigCat Realty supports clients in navigating the Pataudi property market with reliability and informed decision-making. "
+  },
+  {
+    "_id": {
+      "$oid": "6915781f5338d96a1f067771"
+    },
+    "name": "Sohna",
+    "state": {
+      "$oid": "693f9cdc735f0daabd5bc238"
+    },
+    "image": "/images/1763014687420-listing_img_8.jpg",
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763014687426"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1772705406604"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "isTrending": "deactive",
+    "metaDescription": "Explore residential and investment properties for sale in Sohna with expert market insights from BigCat Realty.",
+    "metaTitle": "Properties for Sale in Sohna | BigCat Realty",
+    "cityH1Title": "Properties for Sale in Sohna",
+    "description": "BigCat Realty presents a selection of properties for sale in Sohna, an emerging real estate destination near Gurgaon known for its scenic surroundings and growth potential. Our listings include residential projects and land options across developing sectors. \r\n\r\nSohna is increasingly preferred by buyers seeking long-term investments, plotted developments, and less congested living environments. Our consultants help clients assess connectivity, future infrastructure plans, and project viability. \r\n\r\nBigCat Realty provides end-to-end guidance in Sohna, ensuring verified listings, transparent processes, and a smooth buying experience for both end users and investors. "
+  },
+  {
+    "_id": {
+      "$oid": "69bce63e9e3fc1d25fdf5bd2"
+    },
+    "name": "Panipat",
+    "state": {
+      "$oid": "693f9cdc735f0daabd5bc238"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773987390905"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773987458339"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "image": "/images/1773987458325-Panipat.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "69c0044dc4bf7b63d1a08c68"
+    },
+    "name": "Dehradun",
+    "state": {
+      "$oid": "69c00423c4bf7b63d1a08c1e"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774191693379"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775853848725"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "image": "/images/1775731927208-Uttrakhand.webp",
+    "cityH1Title": "Properties for Sale in Dehradun",
+    "listingPageCard": {
+      "title": "Flats, Plots & Residential Properties in Dehradun",
+      "description": "Dehradun has emerged as a preferred destination for residential real estate, especially for buyers seeking a peaceful environment combined with urban convenience. Surrounded by natural landscapes and supported by improving infrastructure, the city offers a balanced lifestyle.\r\n\r\nThe real estate market in Dehradun includes apartments, independent houses, villas, and residential plots across different parts of the city. Buyers can find both ready-to-move properties and land options for custom home construction.\r\n\r\nThe city’s appeal lies in its relatively lower property prices compared to metro cities, along with a cleaner environment and less congestion. It is particularly attractive for retirees, families, and individuals looking for a second home.\r\n\r\nConnectivity to major cities, presence of educational institutions, and ongoing infrastructure improvements are contributing to rising demand. Over time, Dehradun has also started attracting investors looking for steady appreciation.\r\n\r\nFor those seeking a calm yet connected lifestyle, Dehradun offers a wide range of residential options with long-term value."
+    },
+    "metaDescription": "Explore flats, plots & homes in Dehradun. Peaceful location with growing real estate demand and long-term investment potential.",
+    "metaTitle": "Properties in Dehradun | Flats & Plots"
+  },
+  {
+    "_id": {
+      "$oid": "6a0c354aa3ad638ae5c81c63"
+    },
+    "name": "Neemrana",
+    "state": {
+      "$oid": "6a0c354aa3ad638ae5c81c62"
+    },
+    "image": "",
+    "status": "active",
+    "isTrending": "deactive",
+    "description": "",
+    "metaTitle": "Properties for Sale in Neemrana",
+    "metaDescription": "Explore property listings in Neemrana with BigCat Realty.",
+    "cityH1Title": "Properties for Sale in Neemrana",
+    "listingPageCard": {
+      "title": "",
+      "description": ""
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a0c354aa3ad638ae5c81c64"
+    },
+    "name": "Faridabad",
+    "state": {
+      "$oid": "693f9cdc735f0daabd5bc238"
+    },
+    "image": "",
+    "status": "active",
+    "isTrending": "deactive",
+    "description": "",
+    "metaTitle": "Properties for Sale in Faridabad",
+    "metaDescription": "Explore property listings in Faridabad with BigCat Realty.",
+    "cityH1Title": "Properties for Sale in Faridabad",
+    "listingPageCard": {
+      "title": "",
+      "description": ""
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a0c354aa3ad638ae5c81c69"
+    },
+    "name": "Mohali",
+    "state": {
+      "$oid": "6a0c354aa3ad638ae5c81c68"
+    },
+    "image": "",
+    "status": "active",
+    "isTrending": "deactive",
+    "description": "",
+    "metaTitle": "Properties for Sale in Mohali",
+    "metaDescription": "Explore property listings in Mohali with BigCat Realty.",
+    "cityH1Title": "Properties for Sale in Mohali",
+    "listingPageCard": {
+      "title": "",
+      "description": ""
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1779184970258"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

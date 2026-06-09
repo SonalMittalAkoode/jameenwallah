@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="140" viewBox="0 0 360 140" role="img" aria-label="Sweta Estate logo">
+  <rect width="360" height="140" rx="18" fill="#ffffff"/>
+  <rect x="9" y="9" width="342" height="122" rx="15" fill="#fbfbfc" stroke="#e7e8ec" stroke-width="2"/>
+  <circle cx="64" cy="70" r="30" fill="#fff1f4" stroke="#ffccd6" stroke-width="2"/>
+  <text x="64" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ff385c">SWE</text>
+  <text x="112" y="78" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#181a20" letter-spacing="0">Sweta Estate</text>
+</svg>

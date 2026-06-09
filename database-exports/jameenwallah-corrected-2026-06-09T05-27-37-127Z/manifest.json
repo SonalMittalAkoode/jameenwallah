@@ -1,0 +1,50 @@
+{
+  "exportedAt": "2026-06-09T05:27:37.142Z",
+  "sourceDatabase": "bigCat",
+  "sourceMongoUriRedacted": "mongodb://127.0.0.1:65135/bigCat",
+  "notes": [
+    "Generated from the restored local database after full staging verification.",
+    "Existing MongoDB _id values are preserved.",
+    "Original source database is not modified by this export script."
+  ],
+  "collections": {
+    "agentcontactenquiries": 13,
+    "agents": 1,
+    "amenities": 100,
+    "architects": 0,
+    "areas": 49,
+    "bankerconnects": 4,
+    "becomeaenquiries": 0,
+    "blogcategories": 6,
+    "blogs": 10,
+    "builders": 99,
+    "callrequests": 0,
+    "categories": 3,
+    "charteredaccountants": 0,
+    "cities": 13,
+    "consultancyenquiries": 0,
+    "enquiries": 14,
+    "faqs": 371,
+    "financers": 0,
+    "landingpageenquiries": 17,
+    "lawyers": 0,
+    "nearbycategories": 8,
+    "partners": 0,
+    "properties": 1674,
+    "propertyenquiries": 0,
+    "propertymanagements": 0,
+    "propertypages": 0,
+    "propertytypes": 12,
+    "sitecontents": 0,
+    "states": 8,
+    "subscribers": 59,
+    "testimonials": 6,
+    "tourrequestenquiries": 7,
+    "users": 3
+  },
+  "corrections": {
+    "sizeCorrections": [],
+    "imageCorrections": [],
+    "unchangedPropertyIds": true
+  }
+}

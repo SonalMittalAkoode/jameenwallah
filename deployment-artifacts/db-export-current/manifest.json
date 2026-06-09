@@ -1,0 +1,172 @@
+{
+  "exportedAt": "2026-06-08T10:38:39.704Z",
+  "source": "local-stack-runtime",
+  "database": "bigCat",
+  "collections": [
+    {
+      "name": "agentcontactenquiries",
+      "file": "agentcontactenquiries.ejson",
+      "count": 13
+    },
+    {
+      "name": "agents",
+      "file": "agents.ejson",
+      "count": 1
+    },
+    {
+      "name": "amenities",
+      "file": "amenities.ejson",
+      "count": 100
+    },
+    {
+      "name": "architects",
+      "file": "architects.ejson",
+      "count": 0
+    },
+    {
+      "name": "areas",
+      "file": "areas.ejson",
+      "count": 49
+    },
+    {
+      "name": "bankerconnects",
+      "file": "bankerconnects.ejson",
+      "count": 4
+    },
+    {
+      "name": "becomeaenquiries",
+      "file": "becomeaenquiries.ejson",
+      "count": 0
+    },
+    {
+      "name": "blogcategories",
+      "file": "blogcategories.ejson",
+      "count": 6
+    },
+    {
+      "name": "blogs",
+      "file": "blogs.ejson",
+      "count": 10
+    },
+    {
+      "name": "builders",
+      "file": "builders.ejson",
+      "count": 99
+    },
+    {
+      "name": "callrequests",
+      "file": "callrequests.ejson",
+      "count": 0
+    },
+    {
+      "name": "categories",
+      "file": "categories.ejson",
+      "count": 3
+    },
+    {
+      "name": "charteredaccountants",
+      "file": "charteredaccountants.ejson",
+      "count": 0
+    },
+    {
+      "name": "cities",
+      "file": "cities.ejson",
+      "count": 13
+    },
+    {
+      "name": "consultancyenquiries",
+      "file": "consultancyenquiries.ejson",
+      "count": 0
+    },
+    {
+      "name": "enquiries",
+      "file": "enquiries.ejson",
+      "count": 14
+    },
+    {
+      "name": "faqs",
+      "file": "faqs.ejson",
+      "count": 371
+    },
+    {
+      "name": "financers",
+      "file": "financers.ejson",
+      "count": 0
+    },
+    {
+      "name": "landingpageenquiries",
+      "file": "landingpageenquiries.ejson",
+      "count": 17
+    },
+    {
+      "name": "lawyers",
+      "file": "lawyers.ejson",
+      "count": 0
+    },
+    {
+      "name": "nearbycategories",
+      "file": "nearbycategories.ejson",
+      "count": 8
+    },
+    {
+      "name": "partners",
+      "file": "partners.ejson",
+      "count": 0
+    },
+    {
+      "name": "properties",
+      "file": "properties.ejson",
+      "count": 1674
+    },
+    {
+      "name": "propertyenquiries",
+      "file": "propertyenquiries.ejson",
+      "count": 0
+    },
+    {
+      "name": "propertymanagements",
+      "file": "propertymanagements.ejson",
+      "count": 0
+    },
+    {
+      "name": "propertypages",
+      "file": "propertypages.ejson",
+      "count": 0
+    },
+    {
+      "name": "propertytypes",
+      "file": "propertytypes.ejson",
+      "count": 12
+    },
+    {
+      "name": "sitecontents",
+      "file": "sitecontents.ejson",
+      "count": 0
+    },
+    {
+      "name": "states",
+      "file": "states.ejson",
+      "count": 8
+    },
+    {
+      "name": "subscribers",
+      "file": "subscribers.ejson",
+      "count": 59
+    },
+    {
+      "name": "testimonials",
+      "file": "testimonials.ejson",
+      "count": 6
+    },
+    {
+      "name": "tourrequestenquiries",
+      "file": "tourrequestenquiries.ejson",
+      "count": 7
+    },
+    {
+      "name": "users",
+      "file": "users.ejson",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+[2026-01-12 11:14:04 +0000] [152049] [INFO] Starting gunicorn 23.0.0
+[2026-01-12 11:14:04 +0000] [152049] [INFO] Listening at: http://127.0.0.1:8001 (152049)
+[2026-01-12 11:14:04 +0000] [152049] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2026-01-12 11:14:04 +0000] [152050] [INFO] Booting worker with pid: 152050
+[2026-01-12 11:14:04 +0000] [152051] [INFO] Booting worker with pid: 152051
+[2026-01-12 11:14:17 +0000] [152050] [INFO] Started server process [152050]
+[2026-01-12 11:14:17 +0000] [152050] [INFO] Waiting for application startup.
+[2026-01-12 11:14:17 +0000] [152050] [INFO] Application startup complete.
+[2026-01-12 11:14:17 +0000] [152051] [INFO] Started server process [152051]
+[2026-01-12 11:14:17 +0000] [152051] [INFO] Waiting for application startup.
+[2026-01-12 11:14:17 +0000] [152051] [INFO] Application startup complete.
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Shutting down
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Waiting for application shutdown.
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Application shutdown complete.
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Finished server process [152050]
+[2026-01-12 11:14:34 +0000] [152050] [INFO] Worker exiting (pid: 152050)
+[2026-01-12 11:14:35 +0000] [152065] [INFO] Booting worker with pid: 152065
+[2026-01-12 11:14:40 +0000] [152065] [INFO] Started server process [152065]
+[2026-01-12 11:14:40 +0000] [152065] [INFO] Waiting for application startup.
+[2026-01-12 11:14:40 +0000] [152065] [INFO] Application startup complete.
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Shutting down
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Waiting for application shutdown.
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Application shutdown complete.
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Finished server process [152051]
+[2026-01-12 11:15:42 +0000] [152051] [INFO] Worker exiting (pid: 152051)
+[2026-01-12 11:15:43 +0000] [152182] [INFO] Booting worker with pid: 152182
+[2026-01-12 11:15:49 +0000] [152182] [INFO] Started server process [152182]
+[2026-01-12 11:15:49 +0000] [152182] [INFO] Waiting for application startup.
+[2026-01-12 11:15:49 +0000] [152182] [INFO] Application startup complete.
+[2026-01-12 11:17:51 +0000] [152215] [INFO] Starting gunicorn 23.0.0
+[2026-01-12 11:17:51 +0000] [152215] [ERROR] Connection in use: ('127.0.0.1', 8001)
+[2026-01-12 11:17:51 +0000] [152215] [ERROR] connection to ('127.0.0.1', 8001) failed: [Errno 98] Address already in use
+[2026-01-12 11:17:52 +0000] [152215] [ERROR] Connection in use: ('127.0.0.1', 8001)
+[2026-01-12 11:17:52 +0000] [152215] [ERROR] connection to ('127.0.0.1', 8001) failed: [Errno 98] Address already in use
+[2026-01-12 11:17:53 +0000] [152215] [ERROR] Connection in use: ('127.0.0.1', 8001)
+[2026-01-12 11:17:53 +0000] [152215] [ERROR] connection to ('127.0.0.1', 8001) failed: [Errno 98] Address already in use
+[2026-01-12 11:17:54 +0000] [152215] [ERROR] Connection in use: ('127.0.0.1', 8001)
+[2026-01-12 11:17:54 +0000] [152215] [ERROR] connection to ('127.0.0.1', 8001) failed: [Errno 98] Address already in use
+[2026-01-12 11:17:55 +0000] [152215] [ERROR] Connection in use: ('127.0.0.1', 8001)
+[2026-01-12 11:17:55 +0000] [152215] [ERROR] connection to ('127.0.0.1', 8001) failed: [Errno 98] Address already in use
+[2026-01-12 11:17:56 +0000] [152215] [ERROR] Can't connect to ('127.0.0.1', 8001)
+[2026-02-02 07:27:11 +0000] [152182] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/main.py", line 53, in chat
+    response = run_property_crew(agent, task)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/crew_runner.py", line 10, in run_property_crew
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 714, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 1073, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 1159, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 458, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 695, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 626, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 428, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 428, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 427, in execute_task
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 394, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 490, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 196, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 320, in _invoke_loop
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 237, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 276, in get_llm_response
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 268, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 271, in call
+    return self._handle_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 799, in _handle_completion
+    raise e from e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 788, in _handle_completion
+    response = self.client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/models.py", line 5056, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/models.py", line 3843, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1331, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1167, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1144, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/errors.py", line 108, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+[2026-02-02 07:42:07 +0000] [152065] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1135, in __call__
+    await super().__call__(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 115, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 101, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 355, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/fastapi/routing.py", line 245, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/main.py", line 53, in chat
+    response = run_property_crew(agent, task)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/crew_runner.py", line 10, in run_property_crew
+    result = crew.kickoff()
+             ^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 714, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 1073, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/crew.py", line 1159, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 458, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 695, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/task.py", line 626, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 428, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 428, in execute_task
+    result = self.execute_task(task, context, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 427, in execute_task
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 394, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agent/core.py", line 490, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 196, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 320, in _invoke_loop
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/agents/crew_agent_executor.py", line 237, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 276, in get_llm_response
+    raise e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/utilities/agent_utils.py", line 268, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 271, in call
+    return self._handle_completion(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 799, in _handle_completion
+    raise e from e
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/crewai/llms/providers/gemini/completion.py", line 788, in _handle_completion
+    response = self.client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/models.py", line 5056, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/models.py", line 3843, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1331, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1167, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1144, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/var/www/html/bigcat/backend/ai-chatbot/venv/lib/python3.12/site-packages/google/genai/errors.py", line 108, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API Key not found. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API Key not found. Please pass a valid API key.'}]}}
+[2026-02-02 08:53:58 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:152065)
+[2026-02-02 08:54:20 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:152182)
+[2026-02-02 08:54:50 +0000] [152049] [ERROR] Worker (pid:152065) was sent SIGKILL! Perhaps out of memory?
+[2026-02-02 08:54:50 +0000] [1428073] [INFO] Booting worker with pid: 1428073
+[2026-02-02 08:54:50 +0000] [152049] [ERROR] Worker (pid:152182) was sent SIGKILL! Perhaps out of memory?
+[2026-02-02 08:54:50 +0000] [1428074] [INFO] Booting worker with pid: 1428074
+[2026-02-02 08:55:28 +0000] [1428073] [INFO] Started server process [1428073]
+[2026-02-02 08:55:28 +0000] [1428073] [INFO] Waiting for application startup.
+[2026-02-02 08:55:28 +0000] [1428073] [INFO] Application startup complete.
+[2026-02-02 08:55:28 +0000] [1428074] [INFO] Started server process [1428074]
+[2026-02-02 08:55:28 +0000] [1428074] [INFO] Waiting for application startup.
+[2026-02-02 08:55:28 +0000] [1428074] [INFO] Application startup complete.
+[2026-02-02 09:06:12 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1428074)
+[2026-02-02 09:06:23 +0000] [152049] [ERROR] Worker (pid:1428074) was sent SIGKILL! Perhaps out of memory?
+[2026-02-02 09:06:23 +0000] [1428274] [INFO] Booting worker with pid: 1428274
+[2026-02-02 09:06:44 +0000] [1428274] [INFO] Started server process [1428274]
+[2026-02-02 09:06:44 +0000] [1428274] [INFO] Waiting for application startup.
+[2026-02-02 09:06:44 +0000] [1428274] [INFO] Application startup complete.
+[2026-02-03 12:26:55 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1428073)
+[2026-02-03 12:26:58 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1428274)
+[2026-02-03 12:26:59 +0000] [152049] [ERROR] Worker (pid:1428073) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 12:26:59 +0000] [1493289] [INFO] Booting worker with pid: 1493289
+[2026-02-03 12:26:59 +0000] [152049] [ERROR] Worker (pid:1428274) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 12:26:59 +0000] [1493292] [INFO] Booting worker with pid: 1493292
+[2026-02-03 12:27:38 +0000] [1493289] [INFO] Started server process [1493289]
+[2026-02-03 12:27:38 +0000] [1493292] [INFO] Started server process [1493292]
+[2026-02-03 12:27:38 +0000] [1493292] [INFO] Waiting for application startup.
+[2026-02-03 12:27:38 +0000] [1493292] [INFO] Application startup complete.
+[2026-02-03 12:27:38 +0000] [1493289] [INFO] Waiting for application startup.
+[2026-02-03 12:27:38 +0000] [1493289] [INFO] Application startup complete.
+[2026-02-03 12:33:20 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1493292)
+[2026-02-03 12:33:34 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1493289)
+[2026-02-03 12:33:42 +0000] [152049] [ERROR] Worker (pid:1493292) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 12:33:42 +0000] [1493481] [INFO] Booting worker with pid: 1493481
+[2026-02-03 12:33:42 +0000] [152049] [ERROR] Worker (pid:1493289) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 12:33:42 +0000] [1493483] [INFO] Booting worker with pid: 1493483
+[2026-02-03 12:34:13 +0000] [1493481] [INFO] Started server process [1493481]
+[2026-02-03 12:34:13 +0000] [1493481] [INFO] Waiting for application startup.
+[2026-02-03 12:34:13 +0000] [1493481] [INFO] Application startup complete.
+[2026-02-03 12:34:13 +0000] [1493483] [INFO] Started server process [1493483]
+[2026-02-03 12:34:13 +0000] [1493483] [INFO] Waiting for application startup.
+[2026-02-03 12:34:13 +0000] [1493483] [INFO] Application startup complete.
+[2026-02-03 12:49:34 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1493483)
+[2026-02-03 12:49:48 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1493481)
+[2026-02-03 12:50:03 +0000] [152049] [ERROR] Worker (pid:1493483) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 12:50:03 +0000] [1494184] [INFO] Booting worker with pid: 1494184
+[2026-02-03 12:50:17 +0000] [152049] [ERROR] Worker (pid:1493481) was sent code 134!
+[2026-02-03 12:50:17 +0000] [1494237] [INFO] Booting worker with pid: 1494237
+[2026-02-03 12:50:45 +0000] [1494184] [INFO] Started server process [1494184]
+[2026-02-03 12:50:45 +0000] [1494184] [INFO] Waiting for application startup.
+[2026-02-03 12:50:45 +0000] [1494184] [INFO] Application startup complete.
+[2026-02-03 12:50:48 +0000] [1494237] [INFO] Started server process [1494237]
+[2026-02-03 12:50:48 +0000] [1494237] [INFO] Waiting for application startup.
+[2026-02-03 12:50:48 +0000] [1494237] [INFO] Application startup complete.
+[2026-02-03 19:32:47 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1494184)
+[2026-02-03 19:33:05 +0000] [152049] [CRITICAL] WORKER TIMEOUT (pid:1494237)
+[2026-02-03 19:33:43 +0000] [152049] [ERROR] Worker (pid:1494184) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 19:33:43 +0000] [1512699] [INFO] Booting worker with pid: 1512699
+[2026-02-03 19:33:43 +0000] [152049] [ERROR] Worker (pid:1494237) was sent SIGKILL! Perhaps out of memory?
+[2026-02-03 19:33:43 +0000] [1512703] [INFO] Booting worker with pid: 1512703
+[2026-02-03 19:34:00 +0000] [1512703] [INFO] Started server process [1512703]
+[2026-02-03 19:34:00 +0000] [1512703] [INFO] Waiting for application startup.
+[2026-02-03 19:34:00 +0000] [1512699] [INFO] Started server process [1512699]
+[2026-02-03 19:34:00 +0000] [1512699] [INFO] Waiting for application startup.
+[2026-02-03 19:34:00 +0000] [1512703] [INFO] Application startup complete.
+[2026-02-03 19:34:00 +0000] [1512699] [INFO] Application startup complete.
+[2026-02-04 06:45:22 +0000] [152049] [INFO] Handling signal: term
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Shutting down
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Shutting down
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Waiting for application shutdown.
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Application shutdown complete.
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Finished server process [1512699]
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Waiting for application shutdown.
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Application shutdown complete.
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Finished server process [1512703]
+[2026-02-04 06:45:22 +0000] [1512703] [INFO] Worker exiting (pid: 1512703)
+[2026-02-04 06:45:22 +0000] [1512699] [INFO] Worker exiting (pid: 1512699)
+[2026-02-04 06:45:27 +0000] [152049] [INFO] Shutting down: Master

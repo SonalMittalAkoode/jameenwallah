@@ -1,0 +1,152 @@
+[
+  {
+    "_id": {
+      "$oid": "6915cd597c629fc1b2e9cf82"
+    },
+    "title": "Dream Home Found!",
+    "description": "We found our perfect home within a week! The process was smooth, and the team guided us at every step.",
+    "name": "Riya Sharma",
+    "rating": {
+      "$numberInt": "5"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036505704"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763036505704"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915cd967c629fc1b2e9cf99"
+    },
+    "title": "Perfect Space for My Business",
+    "description": "Got an amazing office space in a prime location. Hassle-free and professional service!",
+    "name": "Amit Verma",
+    "rating": {
+      "$numberInt": "5"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036566959"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763036566959"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915cdb77c629fc1b2e9cfa0"
+    },
+    "title": "Smooth Buying Experience",
+    "description": "From property visits to final paperwork — everything was well-handled and transparent.",
+    "name": "Neha Agarwal",
+    "rating": {
+      "$numberInt": "5"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036599381"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763036599381"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915cdd87c629fc1b2e9cfa7"
+    },
+    "title": "Affordable & Trustworthy",
+    "description": "They helped me buy a beautiful flat within my budget. Highly recommend for first-time buyers!",
+    "name": "Sanjay Patel",
+    "rating": {
+      "$numberInt": "5"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036632861"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763036632861"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915cdfb7c629fc1b2e9cfae"
+    },
+    "title": "Great Investment Deal",
+    "description": "I purchased a commercial plot here — amazing ROI and clear documentation. Very satisfied!",
+    "name": "Rakesh Mehta",
+    "rating": {
+      "$numberInt": "5"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036667245"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1763036667245"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6915ce347c629fc1b2e9cfb5"
+    },
+    "title": "Reliable Real Estate Partner",
+    "description": "Their team truly understands customer needs. Helped me lease my shop quickly!",
+    "name": "Priya Singh",
+    "rating": {
+      "$numberInt": "4"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1763036724349"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1766044362199"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]

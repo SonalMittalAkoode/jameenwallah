@@ -1,0 +1,1186 @@
+[
+  {
+    "_id": {
+      "$oid": "6971f221aa5f0cc6341cc2cc"
+    },
+    "name": "Sohna Road",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1769075233750"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775568317270"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "image": "/images/1774606998207-Sohna-Road-Gurgaon.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "69808fcf52f9ca8da9ba1d58"
+    },
+    "name": "Sector 79, Gurugram, Haryana 122012",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "image": "/images/1770033103687-206-768x432.webp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1770033103709"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606781195"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6980996f52f9ca8da9ba1eb6"
+    },
+    "name": "Sector 65, Golf Course Extn Road,",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "image": "/images/1770035567533-unnamed.webp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1770035567540"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606797618"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69809b6552f9ca8da9ba1f84"
+    },
+    "name": "sector 113 gurgaon",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1770036069668"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606805101"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6980a50352f9ca8da9ba27d6"
+    },
+    "name": "sector 67 gurgaon",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1770038531229"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606833654"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69b8436e9e3fc1d25fded365"
+    },
+    "name": "Golf Course Extension Road",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "image": "/images/1773683566914-Golf-Course-Extension-road-Gurugram.webp",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773683566926"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773683577877"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69b857179e3fc1d25fdedb7a"
+    },
+    "name": "Sector 70",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773688599953"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605181712"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbd03f9e3fc1d25fdf2eb9"
+    },
+    "name": "Sector 72",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773916223702"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773916223702"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbd5b99e3fc1d25fdf318c"
+    },
+    "name": "Sector 74",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773917625065"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606893696"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbf3349e3fc1d25fdf4135"
+    },
+    "name": "Sector 68",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773925172046"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606126071"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bce8d59e3fc1d25fdf5d0c"
+    },
+    "name": "Sector 36/37",
+    "city": {
+      "$oid": "69bce63e9e3fc1d25fdf5bd2"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773988053105"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773988053105"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bcec139e3fc1d25fdf5fbc"
+    },
+    "name": "Sector 57",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773988883664"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774606084594"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bceebc9e3fc1d25fdf61cb"
+    },
+    "name": "Manesar",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773989564354"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775560071444"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "image": "/images/1775560071432-Manesar_tresnding_properties.webp"
+  },
+  {
+    "_id": {
+      "$oid": "69bd10e29e3fc1d25fdf6baf"
+    },
+    "name": "Sector 111",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773998306105"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605898232"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bd1ac89e3fc1d25fdf737a"
+    },
+    "name": "Sector 73",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774000840031"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605885090"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bd22de9e3fc1d25fdf7979"
+    },
+    "name": "Sector 66",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774002910216"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605876572"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bd272e9e3fc1d25fdf7e5b"
+    },
+    "name": "Sector 54",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774004014361"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605867036"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bd595e9e3fc1d25fdf8889"
+    },
+    "name": "Sector 76 & 77",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774016862947"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605859175"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bd64939e3fc1d25fdf8fc1"
+    },
+    "name": "Sectors 91, 92, and 93",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774019731570"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605848904"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be5b649e3fc1d25fdfaa2e"
+    },
+    "name": "Sector 81",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774082916356"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605839482"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be60959e3fc1d25fdface8"
+    },
+    "name": "Sector 42",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774084245564"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605818016"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be7c859e3fc1d25fdfb5b1"
+    },
+    "name": "Moti Nagar",
+    "city": {
+      "$oid": "69157655d6dc632a54d6ea38"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774091397337"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774091397337"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be853a9e3fc1d25fdfbcc1"
+    },
+    "name": "Sector 104",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774093626985"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605805373"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be8df49e3fc1d25fdfc207"
+    },
+    "name": "Sector 71",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774095860038"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605788145"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be90f39e3fc1d25fdfc42c"
+    },
+    "name": "Sector 107",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774096627522"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605773976"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69be91119e3fc1d25fdfc478"
+    },
+    "name": "Sector 106",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774096657481"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605760344"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bea0ba9e3fc1d25fdfc926"
+    },
+    "name": "Sector 80",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774100666983"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605748157"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bea58e9e3fc1d25fdfccdb"
+    },
+    "name": "Sector 82",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774101902759"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605458057"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69beb0c39e3fc1d25fdfd1d3"
+    },
+    "name": "Sector 98",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774104771217"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605395162"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69beb4aa9e3fc1d25fdfd435"
+    },
+    "name": "Sector 61",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774105770996"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605404011"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69beb6c19e3fc1d25fdfd64c"
+    },
+    "name": "Sector 89",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774106305922"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605380402"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bec491aa1a2ea7200f5f3b"
+    },
+    "name": "Sector 63",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774109841866"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605371100"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bec655aa1a2ea7200f6221"
+    },
+    "name": "Sector 37",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774110293908"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605361100"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69becea7aa1a2ea7200f6a82"
+    },
+    "name": "Sector 62",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774112423225"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605351540"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bee2b6aa1a2ea7200f7fe3"
+    },
+    "name": "Sector 146",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774117558769"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605337458"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bee50eaa1a2ea7200f825d"
+    },
+    "name": "Sector 150",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774118158813"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605326924"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bee756aa1a2ea7200f8548"
+    },
+    "name": "Sector 128",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774118742186"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774118742186"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69beeb20aa1a2ea7200f8a34"
+    },
+    "name": "Sector 129",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774119712903"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605313184"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69beeda5aa1a2ea7200f8bf7"
+    },
+    "name": "Sector 108",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774120357394"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605302334"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bfbcf4c4bf7b63d1a05948"
+    },
+    "name": "Sector 103",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774173428777"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605251796"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bfd136c4bf7b63d1a06420"
+    },
+    "name": "Sector 109",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774178614176"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605242474"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bfd561c4bf7b63d1a06763"
+    },
+    "name": "Sector 31",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774179681454"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605231942"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bfe1d1c4bf7b63d1a06ee3"
+    },
+    "name": "Sector 59",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774182865989"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605221693"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bfef15c4bf7b63d1a07900"
+    },
+    "name": "Sector 112",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774186261022"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605205011"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bff9b4c4bf7b63d1a08247"
+    },
+    "name": "Worli",
+    "city": {
+      "$oid": "691577cf5338d96a1f067744"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774188980144"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774188980144"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bffb05c4bf7b63d1a083eb"
+    },
+    "name": "Mulund West",
+    "city": {
+      "$oid": "691577cf5338d96a1f067744"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774189317256"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605126880"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bffd69c4bf7b63d1a085f4"
+    },
+    "name": "Sector 133",
+    "city": {
+      "$oid": "691577805338d96a1f067726"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774189929537"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605141215"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c00939c4bf7b63d1a091af"
+    },
+    "name": "Gwal Pahari",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "deactive",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774192953919"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774605080042"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d505b301b385de86429e0e"
+    },
+    "name": "Dwarka Expressway",
+    "city": {
+      "$oid": "6915742bf942653e88666810"
+    },
+    "status": "active",
+    "isTrending": "active",
+    "metaTitle": "Properties in Dwarka Expressway",
+    "areaH1Title": "Properties in Dwarka Expressway",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1775568307784"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775568364041"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    },
+    "image": "/images/1775568364035-Dwarka_Expressway.jpg"
+  }
+]

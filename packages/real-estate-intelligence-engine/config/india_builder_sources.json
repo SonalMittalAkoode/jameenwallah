@@ -1,0 +1,277 @@
+{
+  "defaults": {
+    "respect_robots_txt": true,
+    "request_delay_seconds": 2.0,
+    "timeout_seconds": 30,
+    "max_pages_per_source": 100,
+    "render_javascript": false,
+    "exclude_patterns": ["blog", "news", "press", "media", "career", "privacy", "terms", "contact", "about"],
+    "regions": [
+      "Gurgaon",
+      "Gurugram",
+      "Noida",
+      "Delhi NCR",
+      "Dwarka Expressway",
+      "Golf Course Road",
+      "SPR"
+    ]
+  },
+  "sources": [
+    {
+      "name": "DLF",
+      "base_url": "https://www.dlf.in/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Godrej Properties",
+      "base_url": "https://www.godrejproperties.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "M3M India",
+      "base_url": "https://www.m3mindia.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "retail", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Adani Realty",
+      "base_url": "https://www.adanirealty.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Sobha",
+      "base_url": "https://www.sobha.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Signature Global",
+      "base_url": "https://www.signatureglobal.in/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Smartworld",
+      "base_url": "https://smartworlddevelopers.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Elan",
+      "base_url": "https://elanlimited.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "retail", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Emaar India",
+      "base_url": "https://www.emaarindia.com/",
+      "skip_sitemap": true,
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 60
+    },
+    {
+      "name": "Central Park",
+      "base_url": "https://www.centralpark.in/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 50
+    },
+    {
+      "name": "Krisumi",
+      "base_url": "https://www.krisumi.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Whiteland",
+      "base_url": "https://www.whitelandcorp.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Experion",
+      "base_url": "https://www.experion.co/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Paras Buildtech",
+      "base_url": "https://www.parasbuildtech.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Bestech",
+      "base_url": "https://www.bestechgroup.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "BPTP",
+      "base_url": "https://www.bptp.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Max Estates",
+      "base_url": "https://www.maxestates.in/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "Birla Estates",
+      "base_url": "https://www.birlaestates.com/",
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 40
+    },
+    {
+      "name": "ATS",
+      "base_url": "https://www.atsgreens.com/",
+      "start_urls": ["https://www.atsgreens.com/", "https://www.atsgreens.com/projects/"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Lodha",
+      "base_url": "https://www.lodhagroup.com/",
+      "start_urls": ["https://www.lodhagroup.com/", "https://www.lodhagroup.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 120
+    },
+    {
+      "name": "Brigade",
+      "base_url": "https://www.brigadegroup.com/",
+      "start_urls": ["https://www.brigadegroup.com/", "https://www.brigadegroup.com/residential", "https://www.brigadegroup.com/commercial"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 120
+    },
+    {
+      "name": "Prestige",
+      "base_url": "https://www.prestigeconstructions.com/",
+      "start_urls": ["https://www.prestigeconstructions.com/", "https://www.prestigeconstructions.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 120
+    },
+    {
+      "name": "Puravankara",
+      "base_url": "https://www.puravankara.com/",
+      "start_urls": ["https://www.puravankara.com/", "https://www.puravankara.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 100
+    },
+    {
+      "name": "Omaxe",
+      "base_url": "https://www.omaxe.com/",
+      "start_urls": ["https://www.omaxe.com/", "https://www.omaxe.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 100
+    },
+    {
+      "name": "House of Hiranandani",
+      "base_url": "https://www.houseofhiranandani.com/",
+      "start_urls": ["https://www.houseofhiranandani.com/", "https://www.houseofhiranandani.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Mahindra Lifespaces",
+      "base_url": "https://www.mahindralifespaces.com/",
+      "start_urls": ["https://www.mahindralifespaces.com/", "https://www.mahindralifespaces.com/residential-projects/"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 100
+    },
+    {
+      "name": "Tata Housing",
+      "base_url": "https://www.tatahousing.in/",
+      "start_urls": ["https://www.tatahousing.in/", "https://www.tatahousing.in/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 100
+    },
+    {
+      "name": "Conscient",
+      "base_url": "https://www.conscient.in/",
+      "start_urls": ["https://www.conscient.in/", "https://www.conscient.in/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "County Group",
+      "base_url": "https://countygroup.in/",
+      "start_urls": ["https://countygroup.in/", "https://countygroup.in/projects/"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Puri Constructions",
+      "base_url": "https://www.puriconstructions.com/",
+      "start_urls": ["https://www.puriconstructions.com/", "https://www.puriconstructions.com/projects/"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Jaypee Greens",
+      "base_url": "https://www.jaypeegreens.com/",
+      "start_urls": ["https://www.jaypeegreens.com/", "https://www.jaypeegreens.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Gaursons",
+      "base_url": "https://www.gaursonsindia.com/",
+      "start_urls": ["https://www.gaursonsindia.com/", "https://www.gaursonsindia.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Supertech",
+      "base_url": "https://www.supertechlimited.com/",
+      "start_urls": ["https://www.supertechlimited.com/", "https://www.supertechlimited.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Raheja Developers",
+      "base_url": "https://www.raheja.com/",
+      "start_urls": ["https://www.raheja.com/", "https://www.raheja.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Embassy Group",
+      "base_url": "https://www.embassyindia.com/",
+      "start_urls": ["https://www.embassyindia.com/", "https://www.embassyindia.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Sumadhura",
+      "base_url": "https://www.sumadhuragroup.com/",
+      "start_urls": ["https://www.sumadhuragroup.com/", "https://www.sumadhuragroup.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Arihant",
+      "base_url": "https://www.arihantspaces.com/",
+      "start_urls": ["https://www.arihantspaces.com/", "https://www.arihantspaces.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Hubtown",
+      "base_url": "https://www.hubtown.co.in/",
+      "start_urls": ["https://www.hubtown.co.in/", "https://www.hubtown.co.in/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    },
+    {
+      "name": "Shalimar",
+      "base_url": "https://shalimarcorp.com/",
+      "start_urls": ["https://shalimarcorp.com/", "https://shalimarcorp.com/projects"],
+      "include_patterns": ["project", "property", "residential", "commercial", "new", "launch", "upcoming"],
+      "max_urls": 80
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Legacy base dependency kept for reference:
+# crewai
+crewai[google-genai]
+fastapi
+uvicorn
+openai
+requests
+python-dotenv

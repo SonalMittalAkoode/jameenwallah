@@ -1,0 +1,144 @@
+{
+  "startedAt": "2026-06-09T07:05:33.778Z",
+  "mongoUri": "mongodb://127.0.0.1:54966/bigCat",
+  "dbName": "bigCat",
+  "port": 5001,
+  "adminEmail": "aditi@akoode.in",
+  "adminId": "690091564c942b9731fefbe8",
+  "adminToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MDA5MTU2NGM5NDJiOTczMWZlZmJlOCIsImlhdCI6MTc4MDk4ODczMywiZXhwIjoxNzgxMDc1MTMzfQ.85yDBQysVH4wAHUnC6Tb-y4uWgZTdHR9R6Vi4eUd5lE",
+  "exportDir": "D:\\Sonal Akoode\\Jameen Vala Project\\database-exports\\jameenwallah-corrected-2026-06-09T05-27-37-127Z",
+  "collections": [
+    {
+      "collectionName": "agentcontactenquiries",
+      "count": 13
+    },
+    {
+      "collectionName": "agents",
+      "count": 1
+    },
+    {
+      "collectionName": "amenities",
+      "count": 100
+    },
+    {
+      "collectionName": "architects",
+      "count": 0
+    },
+    {
+      "collectionName": "areas",
+      "count": 49
+    },
+    {
+      "collectionName": "bankerconnects",
+      "count": 4
+    },
+    {
+      "collectionName": "becomeaenquiries",
+      "count": 0
+    },
+    {
+      "collectionName": "blogcategories",
+      "count": 6
+    },
+    {
+      "collectionName": "blogs",
+      "count": 10
+    },
+    {
+      "collectionName": "builders",
+      "count": 99
+    },
+    {
+      "collectionName": "callrequests",
+      "count": 0
+    },
+    {
+      "collectionName": "categories",
+      "count": 3
+    },
+    {
+      "collectionName": "charteredaccountants",
+      "count": 0
+    },
+    {
+      "collectionName": "cities",
+      "count": 13
+    },
+    {
+      "collectionName": "consultancyenquiries",
+      "count": 0
+    },
+    {
+      "collectionName": "enquiries",
+      "count": 14
+    },
+    {
+      "collectionName": "faqs",
+      "count": 371
+    },
+    {
+      "collectionName": "financers",
+      "count": 0
+    },
+    {
+      "collectionName": "landingpageenquiries",
+      "count": 17
+    },
+    {
+      "collectionName": "lawyers",
+      "count": 0
+    },
+    {
+      "collectionName": "nearbycategories",
+      "count": 8
+    },
+    {
+      "collectionName": "partners",
+      "count": 0
+    },
+    {
+      "collectionName": "properties",
+      "count": 1674
+    },
+    {
+      "collectionName": "propertyenquiries",
+      "count": 0
+    },
+    {
+      "collectionName": "propertymanagements",
+      "count": 0
+    },
+    {
+      "collectionName": "propertypages",
+      "count": 0
+    },
+    {
+      "collectionName": "propertytypes",
+      "count": 12
+    },
+    {
+      "collectionName": "sitecontents",
+      "count": 0
+    },
+    {
+      "collectionName": "states",
+      "count": 8
+    },
+    {
+      "collectionName": "subscribers",
+      "count": 59
+    },
+    {
+      "collectionName": "testimonials",
+      "count": 6
+    },
+    {
+      "collectionName": "tourrequestenquiries",
+      "count": 7
+    },
+    {
+      "collectionName": "users",
+      "count": 3
+    }
+  ]
+}

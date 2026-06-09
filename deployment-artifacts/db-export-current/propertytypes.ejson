@@ -1,0 +1,278 @@
+[
+  {
+    "_id": {
+      "$oid": "692957591e8b5796d13b67eb"
+    },
+    "name": "Apartments",
+    "category": {
+      "$oid": "6915a3489d7459c549c78dd1"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1764317017389"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1764317017389"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "692fdce6ef9198127dfecbc2"
+    },
+    "name": "Retail Spaces",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1764744422295"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1764744422295"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "692fdfbdef9198127dfecf69"
+    },
+    "name": "Office Spaces",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1764745149307"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1764745149307"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "692fe854ef9198127dfed33f"
+    },
+    "name": "Flats",
+    "category": {
+      "$oid": "6915a3489d7459c549c78dd1"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1764747348625"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1764747348625"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "693ff915eff24c8d42be7d2c"
+    },
+    "name": "Residential",
+    "category": {
+      "$oid": "6915a36f9d7459c549c78ddd"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1765800213582"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1765800213582"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69b946ba9e3fc1d25fdefcfc"
+    },
+    "name": "Commercial SCO Plots",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773749946453"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773749946453"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69b956539e3fc1d25fdf0602"
+    },
+    "name": "Mixed (Retail + Office)",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773753939595"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773753939595"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbb46d9e3fc1d25fdf274b"
+    },
+    "name": "Pentsuites/Studio Apartment",
+    "category": {
+      "$oid": "6915a3489d7459c549c78dd1"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773909101313"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773909101313"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbd5a09e3fc1d25fdf3176"
+    },
+    "name": "Studio loft/Service apartments",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773917600535"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1775559282644"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bbdbbe9e3fc1d25fdf3537"
+    },
+    "name": "Serviced Apartments",
+    "category": {
+      "$oid": "6915a3629d7459c549c78dd7"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773919166521"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773919166521"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bce8e39e3fc1d25fdf5d21"
+    },
+    "name": "Floors",
+    "category": {
+      "$oid": "6915a3489d7459c549c78dd1"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1773988067303"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1773988067303"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69bed75aaa1a2ea7200f71f0"
+    },
+    "name": "Villa",
+    "category": {
+      "$oid": "6915a3489d7459c549c78dd1"
+    },
+    "status": "active",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1774114650941"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1774114650941"
+      }
+    },
+    "__v": {
+      "$numberInt": "0"
+    }
+  }
+]
